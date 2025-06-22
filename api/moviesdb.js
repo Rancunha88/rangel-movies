@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const movieBaseURL = 'https://api.themoviedb.org/3';
-const api_key = '52ca91db198ed2b0f1c02c437f93fd23';
+const api_key = api_key;
 
 export const image500 = path => path ? `https://image.tmdb.org/t/p/w500/${path}` : null;
 export const image342 = path => path ? `https://image.tmdb.org/t/p/w342/${path}` : null;
